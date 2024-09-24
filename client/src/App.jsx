@@ -1,12 +1,13 @@
-import images from "./components/images";
+import React from "react";
 
-
-function App() {
+const App = () => {
   return (
     <>
-  
+      <div className="text-red-600">
+        <h1>This is client page!</h1>
+      </div>
     </>
   );
-}
+};
 
 export default App;
